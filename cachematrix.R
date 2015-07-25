@@ -64,7 +64,7 @@ makeCacheMatrix <- function(m = matrix()) {
 }
 
 
-## cacheSolve returns the inverse of the matrix passed as part of the list object 'x'
+## cacheSolve returns the inverse of the matrix passed as part of the list object m
 ## (created by makeCacheMatrix). If the inverse is found in the cache, the cached
 ## version is returned (lines 32-36), else it is computed, cached and returned (lines 37-40).
 
